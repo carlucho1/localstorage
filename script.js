@@ -37,3 +37,7 @@ console.log(JSON.parse(pais))
 localStorage.removeItem('pollo')
 let nuevoPollo= localStorage.getItem('pollo')
 console.log(nuevoPollo)
+
+//Borrado de todos los elementos del localstorage
+localStorage.clear()
+console.log(localStorage.getItem('pollo'))
